@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Wallet"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <TextView
+            android:id="@+id/tvSaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$0"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quién envía"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quién recibe"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etMonto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa un monto"
+            android:inputType="number"
+            android:backgroundTint="#6C63FF"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnDepositar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depositar"
+            android:backgroundTint="#6C63FF"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnRetirar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retirar"
+            android:backgroundTint="#FF7043"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historial"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/tvMovimientos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aún no hay movimientos"
+            android:textColor="#444444"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp" />
+
+    </LinearLayout>
+</ScrollView>
