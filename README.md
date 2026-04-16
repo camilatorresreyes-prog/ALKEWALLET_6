@@ -93,7 +93,7 @@ Se priorizó la estabilidad y funcionamiento completo de la aplicación.
 ![Login](screenshots/login_modulo6.jpg)
 ![Wallet](screenshots/wallet_modulo6.jpg)  
 ![Historial](screenshots/historial1_modulo6.jpg) 
-(https://github.com/camilatorresreyes-prog/ALKEWALLET_6/blob/master/screenshots/historial2_modulo6.jpg)
+![Historial2](screenshots/historial2_modulo6.jpg)
 
 ---
 
